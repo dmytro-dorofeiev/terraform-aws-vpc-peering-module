@@ -1,5 +1,9 @@
 # Terraform vpc peering module
 
+## About
+
+This terraform module allow you create AWS VPC peering connect between two different VPCs.
+
 ## Examples
 
 This example will created VPC Peering from dev to qa VPC.
