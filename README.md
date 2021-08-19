@@ -22,6 +22,7 @@ module "vpc_peering_qa" {
 }
 ```
 
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 No requirements.
@@ -30,8 +31,8 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
-| <a name="provider_aws.accepter"></a> [aws.accepter](#provider\_aws.accepter) | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.54.0 |
+| <a name="provider_aws.accepter"></a> [aws.accepter](#provider\_aws.accepter) | 3.54.0 |
 
 ## Modules
 
@@ -67,3 +68,4 @@ No modules.
 ## Outputs
 
 No outputs.
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
