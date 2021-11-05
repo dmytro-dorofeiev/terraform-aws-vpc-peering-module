@@ -12,7 +12,7 @@ This example will created VPC Peering from dev to qa VPC.
 
 ```txt
 module "vpc_peering_qa" {
-  source               = "../modules/terraform-aws-vpc-peering-module"
+  source               = "git::https://github.com/dmytro-dorofeiev/modules/terraform-aws-vpc-peering-module"
   owner_profile        = "dev"
   accepter_profile     = "qa"
   owner_vpc_id         = var.owner_vpc_id
